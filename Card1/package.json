@@ -1,0 +1,17 @@
+{
+  "name": "card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inputmask": "^5.0.7",
+    "parcel": "^2.7.0",
+    "redom": "^3.29.1"
+  }
+}
