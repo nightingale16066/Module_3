@@ -9,7 +9,7 @@ export const newsList = document.querySelector('.news-list');
 const init = () => {
   preload.show();
   return Promise.all([
-    fetchRequest('/top-headlines?country=de', {
+    fetchRequest('/top-headlines?country=ch', {
       callback: renderCards,
       headers: {
         'X-Api-Key': '352a3678b77d43eba62008003919edca'
